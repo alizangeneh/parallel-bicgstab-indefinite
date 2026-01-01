@@ -1,0 +1,64 @@
+# =====================================================
+# Build artifacts
+# =====================================================
+build/
+bin/
+out/
+cmake-build*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.pdb
+
+# =====================================================
+# Benchmark outputs & generated data
+# =====================================================
+benchmarks/results/*
+!benchmarks/results/.gitkeep
+!benchmarks/results/README.md
+
+benchmarks/test_matrices/*
+!benchmarks/test_matrices/.gitkeep
+!benchmarks/test_matrices/README.md
+
+plots/*
+!plots/.gitkeep
+
+# =====================================================
+# Editor / IDE files
+# =====================================================
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.swp
+*.tmp
+
+# =====================================================
+# OS generated files
+# =====================================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# =====================================================
+# Logs & temporary files
+# =====================================================
+*.log
+*.bak
+*.tmp
+
+# =====================================================
+# Optional: Python / plotting artifacts
+# =====================================================
+__pycache__/
+*.pyc
+*.pyo
